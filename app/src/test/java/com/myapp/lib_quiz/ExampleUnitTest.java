@@ -1,4 +1,4 @@
-package com.myapp.tracnghiemtienganh;
+package com.myapp.sniperman;
 
 import org.junit.Test;
 

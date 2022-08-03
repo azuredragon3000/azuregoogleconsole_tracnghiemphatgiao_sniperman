@@ -26,10 +26,10 @@
     <string name="level4">LEVEL 4</string>
     <string name="level5">LEVEL 5</string>
     <string name="level">level 0</string>
-    <string name="title_activity_game">Đố vui Tiếng Anh</string>
+    <string name="title_activity_game">Học Phật</string>
     <string name="start">bắt đầu game</string>
-    <string name="do_vui_phat_giao">Đố vui Tiếng Anh</string>
-    <string name="con_duong_giac_ngo">Đố vui Tiếng Anh</string>
+    <string name="do_vui_phat_giao">Học Phật</string>
+    <string name="con_duong_giac_ngo">Học Phật</string>
     <string name="yourpoint">point: 0</string>
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

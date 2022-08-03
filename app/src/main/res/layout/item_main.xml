@@ -4,9 +4,12 @@
     android:layout_height="match_parent">
 
     <TextView
+
         android:id="@+id/textitem"
         android:layout_width="match_parent"
-        android:background="@drawable/boder"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:background="@drawable/wood"
         android:gravity="center"
         android:layout_height="50dp"/>
 </LinearLayout>

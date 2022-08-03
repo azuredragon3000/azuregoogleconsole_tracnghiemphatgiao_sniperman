@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.myapp.tracnghiemtienganh.FirstFragment"
+        android:name="com.myapp.sniperman.FirstFragment"
         android:label="@string/con_duong_giac_ngo"
         tools:layout="@layout/fragment_game_first">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.myapp.tracnghiemtienganh.Thirst_Fragment"
+        android:name="com.myapp.sniperman.Thirst_Fragment"
         android:label="@string/do_vui_phat_giao"
         tools:layout="@layout/fragment_thirst_">
 

@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wood"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <TextView
+    <!--<TextView
         android:id="@+id/clock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,19 +19,19 @@
         android:paddingEnd="5dp"
         android:paddingBottom="5dp"
         android:text="@string/yourpoint"
-        tools:ignore="RtlSymmetry" />
+        tools:ignore="RtlSymmetry" />-->
 
-    <TextView
+    <!--<TextView
         android:id="@+id/level"
-        android:padding="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="@drawable/et_cust"
-        android:text="@string/level" />
+        android:padding="5dp"
+        android:text="@string/level" />-->
 
-    <TextView
+    <!--<TextView
         android:id="@+id/num_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,30 +40,37 @@
         android:layout_marginEnd="30dp"
         android:background="@drawable/et_cust"
         android:padding="5dp"
-        android:text="@string/point" />
+        android:text="@string/point" />-->
 
     <TextView
         android:id="@+id/question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
         android:background="@drawable/et_cust"
+        android:backgroundTint="@color/bright_blue"
+        android:padding="20dp"
         android:text="@string/question" />
 
     <TextView
         android:id="@+id/ans1"
+        android:textSize="20sp"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/question"
         android:layout_marginTop="10dp"
         android:background="@drawable/et_cust"
-        android:padding="5dp"
         android:backgroundTint="@android:color/holo_blue_bright"
+        android:padding="5dp"
         android:text="@string/ans1" />
 
     <TextView
         android:id="@+id/ans2"
+        android:textSize="20sp"
+        android:textColor="@color/white"
         android:backgroundTint="@android:color/holo_blue_bright"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -74,6 +82,8 @@
 
     <TextView
         android:id="@+id/ans3"
+        android:textSize="20sp"
+        android:textColor="@color/white"
         android:backgroundTint="@android:color/holo_blue_bright"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,6 +95,8 @@
 
     <TextView
         android:id="@+id/ans4"
+        android:textSize="20sp"
+        android:textColor="@color/white"
         android:backgroundTint="@android:color/holo_blue_bright"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

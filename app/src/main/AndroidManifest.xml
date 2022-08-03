@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.myapp.tracnghiemtienganh">
+    package="com.myapp.sniperman">
 
     <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 
@@ -11,7 +11,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="TracNghiemTiengAnh"
+        android:label="Học Phật"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizPhatGiao"
@@ -19,12 +19,12 @@
         <activity
             android:name=".GameActivity"
             android:exported="false"
-            android:label="TracNghiemTiengAnh"
+            android:label="Học Phật"
             android:theme="@style/Theme.QuizPhatGiao.NoActionBar" />
         <activity
             android:name=".HomeActivity"
             android:exported="true"
-            android:label="TracNghiemTiengAnh">
+            android:label="Học Phật">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,7 +34,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8404443559572571~7705686661" />
+            android:value="ca-app-pub-8404443559572571~8543469075" />
     </application>
 
 </manifest>
